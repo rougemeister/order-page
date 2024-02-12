@@ -31,7 +31,7 @@ body {
 .brand-logo {
     width: 30px;
     height: 32px;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-right: 6px;
 }
 
@@ -55,6 +55,7 @@ body {
     justify-content: center;
     gap: 25px;
     font-family: sans-serif;
+    flex-wrap: wrap;
 }
 
 .name-container {
@@ -106,6 +107,10 @@ label {
     margin: 10px 0;
 }
 
+.order-item:not(:last-child){
+    border-bottom: 2px solid #d89f65 ;
+}
+
 .item,
 .price {
     font-family: Poppins;
@@ -131,4 +136,39 @@ ul {
 li {
     padding: 5px 0;
     color: #885a2d;
+}
+
+.table-container {
+    margin-top: 40px;
+   
+    
+}
+table {
+    margin: auto;
+    width: 350px;
+}
+
+td {
+    font-family: sans-serif;
+    padding: 6px;
+}
+
+.align-right {
+    text-align: right;
+}
+.bold {
+    font-weight: 800;
+}
+
+.button-container {
+    display: flex;
+}
+
+button {
+    background-color: #d89f65;
+    border: none;
+    border-radius: 50px;
+    margin-top: 25px;
+    flex: 1;
+    padding: 12px;
 }
