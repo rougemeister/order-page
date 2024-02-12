@@ -54,6 +54,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 25px;
+    font-family: sans-serif;
 }
 
 .name-container {
@@ -99,3 +100,35 @@ label {
     width: 250px;
 }
 
+.order-item {
+    display: flex;
+    gap: 80px;
+    margin: 10px 0;
+}
+
+.item,
+.price {
+    font-family: Poppins;
+    font-weight: 600;
+    margin-top: -2px;
+}
+
+.price {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 5px;
+    
+}
+li {
+    padding: 5px 0;
+    color: #885a2d;
+}
