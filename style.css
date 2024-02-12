@@ -1,0 +1,101 @@
+ * {
+    box-sizing: border-box;
+
+ }
+
+body {
+    background-color: #efefef;
+    margin: 0;
+}
+
+.brand-name {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.main-page {
+    padding: 30px;
+ 
+    
+}
+.nav-bar {
+   
+    background-color: #43281c;
+    color: #fbf2c0;
+    display: flex;
+    justify-content: center;
+    padding: 6px 0;
+
+}
+
+.brand-logo {
+    width: 30px;
+    height: 32px;
+    margin-top: 15px;
+    margin-right: 6px;
+}
+
+.box {
+    background-color: #eee1d5;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgb(208, 205, 205);
+    padding: 20px;
+}
+.f-grow {
+    flex: 1;
+}
+.order {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.order-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.name-container {
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: #885a2d;
+}
+
+.name-box, 
+.ccv-box, 
+.card-number {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 23px;
+}
+label {
+    position: absolute;
+    font-size: 12px;
+    bottom: 41px;
+    left: 30px;
+    background-color: #eee1d5;
+    color: #885a2d;
+    padding: 0 2px;
+}
+
+#name-input,
+#ccv-input,
+#number-input{
+    padding: 15px;
+    background-color: #eee1d5;
+    border: 2px solid #885a2d;
+    border-radius: 10px;
+}
+
+#ccv-input {
+    width: 250px;
+}
+

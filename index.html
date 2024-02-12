@@ -7,13 +7,13 @@
     <title>Order page</title>
 </head>
 <body>
-    <nav>
+    <nav class="nav-bar">
         <img src="./coffee_masters_logo.png" alt="Coffee masters logo" class="brand-logo">
         <h1 class="brand-name">Order Page</h1>
     </nav>
     <div class="main-page">
-        <div>
-            <div class="order box">
+        <div class="order-container">
+            <div class="order f-grow box">
                 <h2>ITEMS</h2>
                 <div>
                     <div>1x</div>
@@ -48,12 +48,13 @@
                 </div>
             
             </div>
-            <div class="payment">
-                <div class="name-box box">
+            <div class="payment f-grow">
+                <div class="name-container box">
                     <h2>NAME</h2>
-                    <label for="name-input" class="name-label">Name for order</label>
-                    <input id="name-input" name="name" type="text" placeholder="Biney Prince Emmanuel Baah">
-
+                    <div class="name-box">
+                        <label for="name-input" class="name-label">Name for order</label>
+                        <input id="name-input" name="name" type="text" placeholder="Rohan Maxweighter">
+                    </div>
                 </div>
                 <div class="card-details box">
                     <h2>PAYMENT</h2>
@@ -63,8 +64,7 @@
                     </div>
                     <div class="ccv-box">
                         <label for="ccv-input">CCV number</label>
-                        <input type="text" name="ccv" id="ccv-input">
-
+                        <input type="text" name="ccv" id="ccv-input" placeholder="000">
                     </div>
                     
                 </div>
